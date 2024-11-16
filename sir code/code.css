@@ -1,0 +1,35 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                }
+                body{
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                #header{
+                    background-color: black;
+                    color: white;
+                    padding: 2%;
+                }
+                #header ul{
+                    border: 2px solid #FFFFFF;
+                }
+                #home{
+                    background-color: rgb(200, 135, 49);
+                    height: 400px;
+                }
+                #about{
+                    background-color: rgb(49, 150, 200);
+                    height: 400px;
+                }
+                #services{
+                    background-color: rgb(187, 49, 200);
+                    height: 400px;
+                }
+                #contact{
+                    background-color: rgb(200, 51, 49);
+                    height: 400px;
+                }
+                
+                
