@@ -2,105 +2,105 @@
     padding: 0;
    margin: 0;
    }
-   body {
-       padding: 0;
-       margin: 0;
-   }
-   .dropdown:hover {
-       color: rgb(26, 196, 139);
-       padding: 1px;
-   }
-   .mynav {
-     width: 100%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       gap: 15px;
-       position: absolute;
-       top: 8%;
-    }
-   .text h1 {
-       position: absolute;
-       top: 45%;
-       color: white;
-   }
-    .text2 h4 {
-        position: absolute;
-        top: 60%;
-        color: white;
-     }
-    .dropdown-menu {
-        display: none;
-        transition: opacity 0.3s;
-        background-color: lightslategrey;
-   
-    }
-    .dropdown:hover .dropdown-menu {
-         display: block;
-        background-color: lightslategrey;
-        color: white;
-           }
-           .image-content {
-               width: 500px;
-               height: 500px;
-               margin: 20px;
-               overflow: hidden;
-               position: relative;
-           }
-           .inner-content {
-               width: 75%;
-               height: 85%;
-               background: url(https://img.freepik.com/premium-photo/taj-mahal-is-monument-india_865967-16792.jpg);
-               background-position: center;
-               background-size: cover;
-               background-repeat: no-repeat;
-               transition: all 1s;
-               margin: 20px;
-           }
-           .inner-content:hover {
-               transform: scale(1.3);
-           }
-           .text3 {
-               padding: 50px;
-               display: none;
-               color: white;
-               height: 100%;
-               background-color: rgba(0, 0, 0, 0.6);
-               text-align: center;
-               font-size: 10px;
-               padding-left: 25%;
-           }
-           .inner-content:hover .text3 {
-               display: block;
-           }
-           .image-discount {
-               display: flex; 
-               flex-wrap: wrap; 
-               justify-content:space-around;
-               align-items: center;
-               background-color: rgb(235, 230, 225);
-           }
-           .discount {
-               width: 30%; 
-               animation-duration: 2s;
-               animation-name: slide-in;
+body {
+    padding: 0;
+    margin: 0;
+}
+.dropdown:hover {
+    color: rgb(26, 196, 139);
+    padding: 1px;
+}
+.mynav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 8%;
+ }
+.text h1 {
+    position: absolute;
+    top: 45%;
+    color: white;
+}
+ .text2 h4 {
+     position: absolute;
+     top: 60%;
+     color: white;
+  }
+   .dropdown-menu {
+     display: none;
+     transition: opacity 0.3s;
+     background-color: lightslategrey;
+
+ }
+ .dropdown:hover .dropdown-menu {
+      display: block;
+     background-color: lightslategrey;
+     color: white;
+}
+.image-content {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.inner-content {
+    width: 75%;
+    height: 85%;
+    background: url(https://img.freepik.com/premium-photo/taj-mahal-is-monument-india_865967-16792.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    margin: 20px;
+}
+.inner-content:hover {
+    transform: scale(1.3);
+}
+.text3 {
+    padding: 50px;
+    display: none;
+    color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 10px;
+    padding-left: 25%;
+}
+.inner-content:hover .text3 {
+    display: block;
+}
+.image-discount {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(235, 230, 225);
+}
+.discount {
+    width: 30%; 
+    animation-duration: 2s;
+    animation-name: slide-in;
+}
+     @keyframes slide-in {
+       from {
+         translate: 150vw 0;
+         scale: 200% 1;
        }
-             @keyframes slide-in {
-               from {
-                 translate: 150vw 0;
-                 scale: 200% 1;
-               }
-             
-               to {
-                 translate: 0 0;
-                 scale: 100% 1;
-               }
-           }
+     
+       to {
+         translate: 0 0;
+         scale: 100% 1;
+       }
+   }
 .section{
     background-image: url(https://img.freepik.com/free-photo/background-with-plane-blank-space-father-s-day_23-2147615966.jpg?t=st=1731604721~exp=1731608321~hmac=dfb269a5b0bd6018c7c26c18a29569e5cbee758e698d0ea5fecbf9ca8d8387fa&w=996);
-background-repeat: no-repeat;
-background-size: cover;
-padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 
 }
 .type {
@@ -108,8 +108,8 @@ padding: 20px;
     padding: 50px;
     background-image: url(https://img.freepik.com/free-photo/old-new-ways-travel_23-2148232481.jpg?t=st=1731605239~exp=1731608839~hmac=be29219590f0965b72637a614e4a5532894f65b985b49ec466b49528f7a33cc2&w=826);
     background-size: cover;
-padding-top: 8%;
-text-align: center;
+    padding-top: 8%;
+    text-align: center;
 }
 .type h1 {
     color:rgb(0, 0, 0);
@@ -118,7 +118,6 @@ text-align: center;
 .type h6 {
     color:rgb(0, 0, 0);
 }
-
 .container {
     display: flex;
     justify-content: space-around;
@@ -138,7 +137,6 @@ text-align: center;
     margin: 20px;
     top: 5%;
 }
-
 .tour-card:hover {
     transform: translateY(-10px); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
@@ -148,20 +146,17 @@ text-align: center;
     height: 250px;
     object-fit: cover;
 }
-
 .card-info {
     padding: 20px;
     background-color: #fff;
     height: 60px;
 }
-
 .card-info h5 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
 }
-
 .card-info p {
     height: fit-content;
     font-size: 1rem;
@@ -431,7 +426,6 @@ height: 50px;
     z-index: 999;
     color: white;
 }
-
 .new img:hover{
     transform: translateY(-10px); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
